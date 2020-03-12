@@ -1,0 +1,15 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core">
+	<SelectDialog
+		title="{i18n>forwardTo}"
+		class="sapUiPopupWithPadding"
+		items="{/DestinataireSet}"
+		search="_handleDestValueHelpSearch"
+		confirm="_handleDestValueHelpClose"
+		cancel="_handleDestValueHelpClose">
+		<StandardListItem
+			title="{usrid}"
+			description="{sname} {pernr}" />
+	</SelectDialog>
+</core:FragmentDefinition>

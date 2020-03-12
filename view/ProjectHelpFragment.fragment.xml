@@ -1,0 +1,15 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core">
+	<SelectDialog
+		title="{i18n>projects}"
+		class="sapUiPopupWithPadding"
+		items="{/AffaireSet}"
+		search="_handleValueHelpSearch"
+		confirm="_handleValueHelpClose"
+		cancel="_handleValueHelpClose">
+		<StandardListItem
+			title="{ZzposidInfo}"
+			description="{Postu}" />
+	</SelectDialog>
+</core:FragmentDefinition>

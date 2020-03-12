@@ -1,0 +1,208 @@
+<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:semantic="sap.m.semantic" xmlns:form="sap.ui.layout.form" xmlns:core="sap.ui.core"
+	xmlns:footerbar="sap.ushell.ui.footerbar" xmlns:l="sap.ui.layout" controllerName="vesi.fi.rfi.yfi_dfi_rfi.controller.Detail">
+	<Page title="{i18n>details_title}" showHeader="true" showFooter="true" showNavButton="{device1>/isPhone}"
+		navButtonPress="handleNavButtonPress">
+		<content>
+			<ObjectHeader id="objectHeader" intro="" icon="/sap/bc/ui5_ui5/sap/yfi_ir_digit/resources/pdf3.png" title="{Name1}"
+				number="{ path: 'Zzwrbtr', formatter: '.formatter.currencyValue' }" numberUnit="{ path: 'Zzwaers', formatter: '.formatter.waersValue' }"
+				showMarkers="false" markFavorite="false" markFlagged="false" backgroundDesign="Transparent" condensed="false" numberState="None"
+				iconDensityAware="false" iconActive="true" iconPress="displayPDF">
+				<attributes>
+					<!--					<ObjectAttribute title="{i18n>inv_date}"
+						text="{path: 'Zzbldat', type: 'sap.ui.model.type.Date', formatOptions: { UTC: true, style: 'short' }}" active="false" width="50%"/>-->
+					<ObjectAttribute title="{ path: 'zztype', formatter: '.formatter.formatDateTitle' }"
+						text="{path: 'Zzbldat', type: 'sap.ui.model.type.Date', formatOptions: { UTC: true, style: 'short' }}" active="false" width="50%"/>
+					<ObjectAttribute title="{i18n>due_date}" id="due_date_text"
+						text="{path: 'Zzdate', type: 'sap.ui.model.type.Date', formatOptions: { UTC: true, style: 'short' }}" active="false" width="50%"/>
+					<ObjectAttribute id="due_date_text_invisible" text="{path: 'Zzdate', formatter:'.statusDueDate'}" visible="false"/>
+				</attributes>
+			</ObjectHeader>
+			<form:Form width="100%" editable="true" visible="true" id="formdetails" layout="ResponsiveGridLayout">
+				<!--<form:title>-->
+				<!--	<core:Title text="" level="Auto"/>-->
+				<!--</form:title>-->
+				<form:formContainers>
+					<form:FormContainer>
+						<!--visible="{= ${ZzposidCh} &amp;&amp; ${ZzposidCh} }">-->
+						<form:formElements>
+							<form:FormElement>
+								<form:label>
+									<Label text="{i18n>posidnumber}" design="Bold" width="100%" required="false" textAlign="Left" textDirection="Inherit"/>
+								</form:label>
+								<form:fields>
+									<Input id="posid_input" placeholder="{= ${ZzposidCh} ? ${i18n>posid_placeholder} : '' }" type="Text" enabled="{ZzposidCh}" width="auto"
+										valueHelpOnly="false" maxLength="0" value="" liveChange="posidChange" showSuggestion="true" showValueHelp="true"
+										valueHelpRequest="handlePosidValueHelp" suggestionItems="{/AffaireSet}" suggest="handleSuggestPN">
+										<suggestionItems>
+											<core:Item text="{ZzposidInfo}"/>
+										</suggestionItems>
+									</Input>
+									<ObjectStatus text="{= ${ZzposidCh} ? ${i18n>pending} : ${i18n>not_req} }" state="{path: 'ZzposidCh', formatter: '.statusPN'}"
+										icon="{= ${ZzposidCh} ? 'sap-icon://message-warning' : 'sap-icon://hint' }" id="posidStatus"/>
+								</form:fields>
+							</form:FormElement>
+							<!-- ONG  ADD -->
+							<form:FormElement>
+								<form:label>
+									<!--<Label text="{i18n>posidnumber}" design="Bold" width="100%" required="false" textAlign="Left" textDirection="Inherit"/>-->
+								</form:label>
+								<form:fields>
+									<!-- ONG ADD Project Multi -->
+									<ToolbarSpacer/>
+									<Button class="sapUiTinyMarginBegin" width="20%" icon="sap-icon://add" press="displayProjectPopup"/>
+									<!-- ONG ADD Project Multi -->
+								</form:fields>
+							</form:FormElement>
+							<!-- ONG ADD -->
+							<form:FormElement>
+								<form:label>
+									<Label text="{i18n>ponumber}" design="Bold" width="100%" required="false" textAlign="Begin" textDirection="Inherit"/>
+								</form:label>
+								<form:fields>
+									<Input id="po_input" placeholder="{= ${ZzebelnCh} ? ${i18n>po_placeholder} : '' }" type="Text" enabled="{ZzebelnCh}" width="auto"
+										valueHelpOnly="false" maxLength="0" value="{ZzebelnInfo}" liveChange="poChange" showSuggestion="true" showValueHelp="true"
+										valueHelpRequest="handlePoValueHelp" suggestionItems="{/CommandeSet}">
+										<suggestionItems>
+											<core:Item text="{Ebeln}"/>
+										</suggestionItems>
+									</Input>
+									<ObjectStatus text="{= ${ZzebelnCh} ? ${i18n>pending} : ${i18n>not_req} }" state="{path: 'ZzebelnCh', formatter: '.statusPN'}"
+										icon="{= ${ZzebelnCh} ? 'sap-icon://message-warning' : 'sap-icon://hint' }" id="poStatus"/>
+									<!--text="Not Requested" state="None" icon="sap-icon://hint"-->
+								</form:fields>
+							</form:FormElement>
+							<!-- ONG ADD -->
+							<form:FormElement>
+								<form:label>
+									<Label text="{i18n>glaccount}" design="Bold" width="100%" required="false" textAlign="Begin" textDirection="Inherit"/>
+								</form:label>
+								<form:fields>
+									<Input id="glaccount_input" placeholder="{= ${zzhkontCh} ? ${i18n>gl_placeholder} : '' }" type="Text" enabled="{zzhkontCh}" width="auto"
+										valueHelpOnly="false" maxLength="0" value="{zzhkontinfo}" liveChange="glAccountChange" showSuggestion="true">
+										<!--valueHelpRequest="handlePoValueHelp" suggestionItems="{/CommandeSet}">-->
+										<!--										<suggestionItems>
+											<core:Item text="{Ebeln}"/>
+										</suggestionItems>-->
+									</Input>
+									<ObjectStatus text="{= ${zzhkontCh} ? ${i18n>pending} : ${i18n>not_req} }" state="{path: 'zzhkontCh', formatter: '.statusPN'}"
+										icon="{= ${zzhkontCh} ? 'sap-icon://message-warning' : 'sap-icon://hint' }" id="glaccountStatus"/>
+								</form:fields>
+							</form:FormElement>
+							<!-- ONG ADD -->
+							<form:FormElement visible="{ZzinvoicetypeCh}">
+								<form:label>
+									<Label text="{i18n>downp}" design="Bold" width="100%" required="false" textAlign="Begin" textDirection="Inherit"/>
+								</form:label>
+								<form:fields>
+									<Input id="dp_input" placeholder="" type="Text" width="auto" valueHelpOnly="false" maxLength="0" value="{ZzwrbtrInfo}" liveChange="dpChange"
+										change="onDpChange" visible="{ZzinvoicetypeCh}">
+										<layoutData>
+											<l:GridData span="XL2 L2 M3 S4"/>
+										</layoutData>
+									</Input>
+								</form:fields>
+								<form:fields>
+									<Input id="dp_devise" type="Text" valueHelpOnly="false" width="52px" value="{Zzwaers}" enabled="false">
+										<layoutData>
+											<l:GridData span="XL1 L1 M2 S3"/>
+										</layoutData>
+									</Input>
+								</form:fields>
+								<form:fields>
+									<ObjectStatus text="{i18n>pending}" width="auto" state="Warning" icon="sap-icon://message-warning" id="dpStatus"/>
+								</form:fields>
+							</form:FormElement>
+							<form:FormElement visible="{= ${ZzvalidecartInfo} !== '' }">
+								<form:label>
+									<Label text="{i18n>gap}" design="Bold" width="100%" required="false" textAlign="Begin" textDirection="Inherit"/>
+								</form:label>
+								<form:fields>
+									<Text text="{ZzvalidecartInfo}" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+								</form:fields>
+							</form:FormElement>
+							<!--ZzvalidecartCh-->
+							<form:FormElement visible="{= ${ZzvalidecartInfo} !== '' }" id="ecartRep1">
+								<form:label>
+									<Label text="" width="100%" textAlign="Begin" textDirection="Inherit"/>
+								</form:label>
+								<form:fields>
+									<VBox>
+										<Select forceSelection="true" items="{ path: '/EcartSet' }" id="ecartRep" change="ecartChange">
+											<core:Item key="{ZecartCode}" text="{ZecartDesc}"/>
+										</Select>
+									</VBox>
+									<ObjectStatus text="{i18n>pending}" state="Warning" icon="sap-icon://message-warning" id="ecartStatus"/>
+								</form:fields>
+							</form:FormElement>
+							<form:FormElement visible="{= ${Zzinfo} !== '' }">
+								<form:label>
+									<Label text="{i18n>misc}" design="Bold" width="100%" required="false" textAlign="Begin" textDirection="Inherit"/>
+								</form:label>
+								<form:fields>
+									<TextArea value="{path: 'Zzinfo', formatter: '.myFormatter'}" growing="true" id="miscInfo" editable="false"/>
+									<!--value="{Zzinfo}" formatter="myFormatter"-->
+									<ObjectStatus/>
+								</form:fields>
+							</form:FormElement>
+							<form:FormElement visible="true">
+								<form:label>
+									<Label text="{i18n>comment}" design="Bold" width="100%" required="false" textAlign="Begin" textDirection="Inherit"/>
+								</form:label>
+								<form:fields>
+									<TextArea value="{ZzcommentInfo}" rows="2" placeholder="{i18n>commnet_placeholder}" cols="20" maxLength="0" wrapping="None" visible="true"
+										liveChange="commentChange" id="comment"/>
+									<ObjectStatus text="{i18n>pending}" state="Warning" icon="sap-icon://message-warning" id="commentStatus"/>
+								</form:fields>
+							</form:FormElement>
+							<!-- ONG ADD Forward To -->
+							<form:FormElement visible="true">
+								<form:label>
+									<Label text="{i18n>forwardTo}" class="sapUiLargeMarginTop" design="Bold" width="100%" required="false" textAlign="Begin"
+										textDirection="Inherit"/>
+								</form:label>
+								<form:fields>
+									<!--<Input id="forward_input" type="Text" width="auto" maxLength="0" value="{Destinataireinfob}"></Input>-->
+									<Input id="forward_input" type="Text" width="auto" class="sapUiLargeMarginTop" valueHelpOnly="false" maxLength="0"
+										value="{Destinataireinfob}" liveChange="posidChange" showSuggestion="true" showValueHelp="true"
+										valueHelpRequest="handleDestinataireValueHelp" suggestionItems="{/DestinataireSet}">
+										<suggestionItems>
+											<core:Item text="{Destinataireinfob}"/>
+										</suggestionItems>
+									</Input>
+									<ToolbarSpacer/>
+								</form:fields>
+							</form:FormElement>
+							<!-- ONG ADD Forward To -->
+						</form:formElements>
+						<form:title/>
+					</form:FormContainer>
+				</form:formContainers>
+				<form:layout>
+					<form:ResponsiveGridLayout adjustLabelSpan="false" columnsL="2" labelSpanL="3" columnsM="1" labelSpanM="2" labelSpanS="12"/>
+				</form:layout>
+			</form:Form>
+		</content>
+		<footer>
+			<Bar design="Auto">
+				<contentLeft/>
+				<contentMiddle>
+					<!--				<Button text="{i18n>refuse}" type="Reject" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"-->
+					<!--press="refuse" align="left"/>-->
+				</contentMiddle>
+				<contentRight>
+					<!-- ONG ADD Forward To -->
+					<!--<Button icon="sap-icon://add" press="displayProjectPopup"/>-->
+					<Button text="{i18n>txtGoApprove}" type="Emphasized" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"
+						press="onNavigateToApprove"/>
+					<Button text="{i18n>forward}" type="Emphasized" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"
+						press="forward"/>
+					<!-- ONG ADD Forward To -->
+					<Button text="{i18n>validate}" type="Accept" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"
+						press="validate"/>
+					<Button text="{i18n>reject}" type="Reject" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"
+						press="reject"/>
+				</contentRight>
+			</Bar>
+		</footer>
+	</Page>
+</mvc:View>

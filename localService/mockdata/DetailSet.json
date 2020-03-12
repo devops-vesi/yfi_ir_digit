@@ -1,0 +1,181 @@
+[{
+	"Zcle": "Zcle 1",
+	"ZzposidCh": false,
+	"ZzposidInfo": "ZzposidInfo 1",
+	"ZzebelnCh": false,
+	"ZzebelnInfo": "ZzebelnInfo 1",
+	"ZzinvoicetypeCh": false,
+	"ZzwrbtrInfo": 2603,
+	"Zzwaers": "Zzwaers 1",
+	"ZzvalidecartCh": true,
+	"ZzvalidecartInfo": "ZzvalidecartInfo 1",
+	"ZzvalidecartRet": "ZzvalidecartRet 1",
+	"Zzinfo": "Zzinfo 1",
+	"ZzinfoRe": "ZzinfoRe 1",
+	"__metadata": {
+		"uri": "DetailSet('Zcle%201')",
+		"type": "YFI_DIGIT_SRV.Detail"
+	}
+}, {
+	"Zcle": "Zcle 2",
+	"ZzposidCh": false,
+	"ZzposidInfo": "ZzposidInfo 2",
+	"ZzebelnCh": false,
+	"ZzebelnInfo": "ZzebelnInfo 2",
+	"ZzinvoicetypeCh": false,
+	"ZzwrbtrInfo": 944.18,
+	"Zzwaers": "Zzwaers 2",
+	"ZzvalidecartCh": false,
+	"ZzvalidecartInfo": "ZzvalidecartInfo 2",
+	"ZzvalidecartRet": "ZzvalidecartRet 2",
+	"Zzinfo": "Zzinfo 2",
+	"ZzinfoRe": "ZzinfoRe 2",
+	"__metadata": {
+		"uri": "DetailSet('Zcle%202')",
+		"type": "YFI_DIGIT_SRV.Detail"
+	}
+}, {
+	"Zcle": "Zcle 3",
+	"ZzposidCh": false,
+	"ZzposidInfo": "ZzposidInfo 3",
+	"ZzebelnCh": false,
+	"ZzebelnInfo": "ZzebelnInfo 3",
+	"ZzinvoicetypeCh": true,
+	"ZzwrbtrInfo": 1685.65,
+	"Zzwaers": "Zzwaers 3",
+	"ZzvalidecartCh": true,
+	"ZzvalidecartInfo": "ZzvalidecartInfo 3",
+	"ZzvalidecartRet": "ZzvalidecartRet 3",
+	"Zzinfo": "Zzinfo 3",
+	"ZzinfoRe": "ZzinfoRe 3",
+	"__metadata": {
+		"uri": "DetailSet('Zcle%203')",
+		"type": "YFI_DIGIT_SRV.Detail"
+	}
+}, {
+	"Zcle": "Zcle 4",
+	"ZzposidCh": false,
+	"ZzposidInfo": "ZzposidInfo 4",
+	"ZzebelnCh": true,
+	"ZzebelnInfo": "ZzebelnInfo 4",
+	"ZzinvoicetypeCh": true,
+	"ZzwrbtrInfo": 7827.93,
+	"Zzwaers": "Zzwaers 4",
+	"ZzvalidecartCh": false,
+	"ZzvalidecartInfo": "ZzvalidecartInfo 4",
+	"ZzvalidecartRet": "ZzvalidecartRet 4",
+	"Zzinfo": "Zzinfo 4",
+	"ZzinfoRe": "ZzinfoRe 4",
+	"__metadata": {
+		"uri": "DetailSet('Zcle%204')",
+		"type": "YFI_DIGIT_SRV.Detail"
+	}
+}, {
+	"Zcle": "Zcle 5",
+	"ZzposidCh": false,
+	"ZzposidInfo": "ZzposidInfo 5",
+	"ZzebelnCh": false,
+	"ZzebelnInfo": "ZzebelnInfo 5",
+	"ZzinvoicetypeCh": false,
+	"ZzwrbtrInfo": 2196.87,
+	"Zzwaers": "Zzwaers 5",
+	"ZzvalidecartCh": false,
+	"ZzvalidecartInfo": "ZzvalidecartInfo 5",
+	"ZzvalidecartRet": "ZzvalidecartRet 5",
+	"Zzinfo": "Zzinfo 5",
+	"ZzinfoRe": "ZzinfoRe 5",
+	"__metadata": {
+		"uri": "DetailSet('Zcle%205')",
+		"type": "YFI_DIGIT_SRV.Detail"
+	}
+}, {
+	"Zcle": "Zcle 6",
+	"ZzposidCh": true,
+	"ZzposidInfo": "ZzposidInfo 6",
+	"ZzebelnCh": false,
+	"ZzebelnInfo": "ZzebelnInfo 6",
+	"ZzinvoicetypeCh": false,
+	"ZzwrbtrInfo": 8998.39,
+	"Zzwaers": "Zzwaers 6",
+	"ZzvalidecartCh": false,
+	"ZzvalidecartInfo": "ZzvalidecartInfo 6",
+	"ZzvalidecartRet": "ZzvalidecartRet 6",
+	"Zzinfo": "Zzinfo 6",
+	"ZzinfoRe": "ZzinfoRe 6",
+	"__metadata": {
+		"uri": "DetailSet('Zcle%206')",
+		"type": "YFI_DIGIT_SRV.Detail"
+	}
+}, {
+	"Zcle": "Zcle 7",
+	"ZzposidCh": false,
+	"ZzposidInfo": "ZzposidInfo 7",
+	"ZzebelnCh": true,
+	"ZzebelnInfo": "ZzebelnInfo 7",
+	"ZzinvoicetypeCh": true,
+	"ZzwrbtrInfo": 8287.12,
+	"Zzwaers": "Zzwaers 7",
+	"ZzvalidecartCh": false,
+	"ZzvalidecartInfo": "ZzvalidecartInfo 7",
+	"ZzvalidecartRet": "ZzvalidecartRet 7",
+	"Zzinfo": "Zzinfo 7",
+	"ZzinfoRe": "ZzinfoRe 7",
+	"__metadata": {
+		"uri": "DetailSet('Zcle%207')",
+		"type": "YFI_DIGIT_SRV.Detail"
+	}
+}, {
+	"Zcle": "Zcle 8",
+	"ZzposidCh": true,
+	"ZzposidInfo": "ZzposidInfo 8",
+	"ZzebelnCh": false,
+	"ZzebelnInfo": "ZzebelnInfo 8",
+	"ZzinvoicetypeCh": true,
+	"ZzwrbtrInfo": 8198.3,
+	"Zzwaers": "Zzwaers 8",
+	"ZzvalidecartCh": true,
+	"ZzvalidecartInfo": "ZzvalidecartInfo 8",
+	"ZzvalidecartRet": "ZzvalidecartRet 8",
+	"Zzinfo": "Zzinfo 8",
+	"ZzinfoRe": "ZzinfoRe 8",
+	"__metadata": {
+		"uri": "DetailSet('Zcle%208')",
+		"type": "YFI_DIGIT_SRV.Detail"
+	}
+}, {
+	"Zcle": "Zcle 9",
+	"ZzposidCh": false,
+	"ZzposidInfo": "ZzposidInfo 9",
+	"ZzebelnCh": true,
+	"ZzebelnInfo": "ZzebelnInfo 9",
+	"ZzinvoicetypeCh": false,
+	"ZzwrbtrInfo": 6749.95,
+	"Zzwaers": "Zzwaers 9",
+	"ZzvalidecartCh": true,
+	"ZzvalidecartInfo": "ZzvalidecartInfo 9",
+	"ZzvalidecartRet": "ZzvalidecartRet 9",
+	"Zzinfo": "Zzinfo 9",
+	"ZzinfoRe": "ZzinfoRe 9",
+	"__metadata": {
+		"uri": "DetailSet('Zcle%209')",
+		"type": "YFI_DIGIT_SRV.Detail"
+	}
+}, {
+	"Zcle": "Zcle 10",
+	"ZzposidCh": false,
+	"ZzposidInfo": "ZzposidInfo 10",
+	"ZzebelnCh": true,
+	"ZzebelnInfo": "ZzebelnInfo 10",
+	"ZzinvoicetypeCh": false,
+	"ZzwrbtrInfo": 8763.3,
+	"Zzwaers": "Zzwaers 10",
+	"ZzvalidecartCh": true,
+	"ZzvalidecartInfo": "ZzvalidecartInfo 10",
+	"ZzvalidecartRet": "ZzvalidecartRet 10",
+	"Zzinfo": "Zzinfo 10",
+	"ZzinfoRe": "ZzinfoRe 10",
+	"__metadata": {
+		"uri": "DetailSet('Zcle%2010')",
+		"type": "YFI_DIGIT_SRV.Detail"
+	}
+}]

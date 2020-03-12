@@ -1,0 +1,211 @@
+[{
+	"Zcle": "Zcle 1",
+	"DestinataireInfo": "DestinataireInfo 1",
+	"ErnamNom": "ErnamNom 1",
+	"Zzxblnr2": "Zzxblnr2 1",
+	"ZdateInfo": "/Date(1368546573000)/",
+	"Name1": "Name1 1",
+	"Zzlifnr": "Zzlifnr 1",
+	"Zzwrbtr": 1822.39,
+	"Zzwaers": "Zzwaers 1",
+	"Zzbldat": "/Date(1447778973000)/",
+	"Zzdate": "/Date(1497714573000)/",
+	"__metadata": {
+		"uri": "ListeSet('Zcle%201')",
+		"type": "YFI_DIGIT_SRV.Liste"
+	},
+	"Detail": {
+		"__deferred": {
+			"uri": "ListeSet('Zcle%201')/Detail"
+		}
+	}
+}, {
+	"Zcle": "Zcle 2",
+	"DestinataireInfo": "DestinataireInfo 2",
+	"ErnamNom": "ErnamNom 2",
+	"Zzxblnr2": "Zzxblnr2 2",
+	"ZdateInfo": "/Date(1107449373000)/",
+	"Name1": "Name1 2",
+	"Zzlifnr": "Zzlifnr 2",
+	"Zzwrbtr": 1713.77,
+	"Zzwaers": "Zzwaers 2",
+	"Zzbldat": "/Date(1174150173000)/",
+	"Zzdate": "/Date(1160236173000)/",
+	"__metadata": {
+		"uri": "ListeSet('Zcle%202')",
+		"type": "YFI_DIGIT_SRV.Liste"
+	},
+	"Detail": {
+		"__deferred": {
+			"uri": "ListeSet('Zcle%202')/Detail"
+		}
+	}
+}, {
+	"Zcle": "Zcle 3",
+	"DestinataireInfo": "DestinataireInfo 3",
+	"ErnamNom": "ErnamNom 3",
+	"Zzxblnr2": "Zzxblnr2 3",
+	"ZdateInfo": "/Date(1296319773000)/",
+	"Name1": "Name1 3",
+	"Zzlifnr": "Zzlifnr 3",
+	"Zzwrbtr": 9180.61,
+	"Zzwaers": "Zzwaers 3",
+	"Zzbldat": "/Date(1245253773000)/",
+	"Zzdate": "/Date(1555343373000)/",
+	"__metadata": {
+		"uri": "ListeSet('Zcle%203')",
+		"type": "YFI_DIGIT_SRV.Liste"
+	},
+	"Detail": {
+		"__deferred": {
+			"uri": "ListeSet('Zcle%203')/Detail"
+		}
+	}
+}, {
+	"Zcle": "Zcle 4",
+	"DestinataireInfo": "DestinataireInfo 4",
+	"ErnamNom": "ErnamNom 4",
+	"Zzxblnr2": "Zzxblnr2 4",
+	"ZdateInfo": "/Date(1506440973000)/",
+	"Name1": "Name1 4",
+	"Zzlifnr": "Zzlifnr 4",
+	"Zzwrbtr": 9574.11,
+	"Zzwaers": "Zzwaers 4",
+	"Zzbldat": "/Date(1567352973000)/",
+	"Zzdate": "/Date(1448383773000)/",
+	"__metadata": {
+		"uri": "ListeSet('Zcle%204')",
+		"type": "YFI_DIGIT_SRV.Liste"
+	},
+	"Detail": {
+		"__deferred": {
+			"uri": "ListeSet('Zcle%204')/Detail"
+		}
+	}
+}, {
+	"Zcle": "Zcle 5",
+	"DestinataireInfo": "DestinataireInfo 5",
+	"ErnamNom": "ErnamNom 5",
+	"Zzxblnr2": "Zzxblnr2 5",
+	"ZdateInfo": "/Date(986831373000)/",
+	"Name1": "Name1 5",
+	"Zzlifnr": "Zzlifnr 5",
+	"Zzwrbtr": 6571.95,
+	"Zzwaers": "Zzwaers 5",
+	"Zzbldat": "/Date(1367596173000)/",
+	"Zzdate": "/Date(1371743373000)/",
+	"__metadata": {
+		"uri": "ListeSet('Zcle%205')",
+		"type": "YFI_DIGIT_SRV.Liste"
+	},
+	"Detail": {
+		"__deferred": {
+			"uri": "ListeSet('Zcle%205')/Detail"
+		}
+	}
+}, {
+	"Zcle": "Zcle 6",
+	"DestinataireInfo": "DestinataireInfo 6",
+	"ErnamNom": "ErnamNom 6",
+	"Zzxblnr2": "Zzxblnr2 6",
+	"ZdateInfo": "/Date(1035737373000)/",
+	"Name1": "Name1 6",
+	"Zzlifnr": "Zzlifnr 6",
+	"Zzwrbtr": 2050.54,
+	"Zzwaers": "Zzwaers 6",
+	"Zzbldat": "/Date(1236703773000)/",
+	"Zzdate": "/Date(1529250573000)/",
+	"__metadata": {
+		"uri": "ListeSet('Zcle%206')",
+		"type": "YFI_DIGIT_SRV.Liste"
+	},
+	"Detail": {
+		"__deferred": {
+			"uri": "ListeSet('Zcle%206')/Detail"
+		}
+	}
+}, {
+	"Zcle": "Zcle 7",
+	"DestinataireInfo": "DestinataireInfo 7",
+	"ErnamNom": "ErnamNom 7",
+	"Zzxblnr2": "Zzxblnr2 7",
+	"ZdateInfo": "/Date(1222184973000)/",
+	"Name1": "Name1 7",
+	"Zzlifnr": "Zzlifnr 7",
+	"Zzwrbtr": 804.66,
+	"Zzwaers": "Zzwaers 7",
+	"Zzbldat": "/Date(1322758173000)/",
+	"Zzdate": "/Date(1194367773000)/",
+	"__metadata": {
+		"uri": "ListeSet('Zcle%207')",
+		"type": "YFI_DIGIT_SRV.Liste"
+	},
+	"Detail": {
+		"__deferred": {
+			"uri": "ListeSet('Zcle%207')/Detail"
+		}
+	}
+}, {
+	"Zcle": "Zcle 8",
+	"DestinataireInfo": "DestinataireInfo 8",
+	"ErnamNom": "ErnamNom 8",
+	"Zzxblnr2": "Zzxblnr2 8",
+	"ZdateInfo": "/Date(1043599773000)/",
+	"Name1": "Name1 8",
+	"Zzlifnr": "Zzlifnr 8",
+	"Zzwrbtr": 6575.31,
+	"Zzwaers": "Zzwaers 8",
+	"Zzbldat": "/Date(1536767373000)/",
+	"Zzdate": "/Date(1005410973000)/",
+	"__metadata": {
+		"uri": "ListeSet('Zcle%208')",
+		"type": "YFI_DIGIT_SRV.Liste"
+	},
+	"Detail": {
+		"__deferred": {
+			"uri": "ListeSet('Zcle%208')/Detail"
+		}
+	}
+}, {
+	"Zcle": "Zcle 9",
+	"DestinataireInfo": "DestinataireInfo 9",
+	"ErnamNom": "ErnamNom 9",
+	"Zzxblnr2": "Zzxblnr2 9",
+	"ZdateInfo": "/Date(965490573000)/",
+	"Name1": "Name1 9",
+	"Zzlifnr": "Zzlifnr 9",
+	"Zzwrbtr": 7738.54,
+	"Zzwaers": "Zzwaers 9",
+	"Zzbldat": "/Date(1127836173000)/",
+	"Zzdate": "/Date(1009212573000)/",
+	"__metadata": {
+		"uri": "ListeSet('Zcle%209')",
+		"type": "YFI_DIGIT_SRV.Liste"
+	},
+	"Detail": {
+		"__deferred": {
+			"uri": "ListeSet('Zcle%209')/Detail"
+		}
+	}
+}, {
+	"Zcle": "Zcle 10",
+	"DestinataireInfo": "DestinataireInfo 10",
+	"ErnamNom": "ErnamNom 10",
+	"Zzxblnr2": "Zzxblnr2 10",
+	"ZdateInfo": "/Date(962034573000)/",
+	"Name1": "Name1 10",
+	"Zzlifnr": "Zzlifnr 10",
+	"Zzwrbtr": 94.72,
+	"Zzwaers": "Zzwaers 10",
+	"Zzbldat": "/Date(1244562573000)/",
+	"Zzdate": "/Date(1211989773000)/",
+	"__metadata": {
+		"uri": "ListeSet('Zcle%2010')",
+		"type": "YFI_DIGIT_SRV.Liste"
+	},
+	"Detail": {
+		"__deferred": {
+			"uri": "ListeSet('Zcle%2010')/Detail"
+		}
+	}
+}]

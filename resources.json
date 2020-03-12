@@ -1,0 +1,1029 @@
+{
+    "resources": [
+        {
+            "name": "Component-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "Component-preload.js",
+            "merged": true
+        },
+        {
+            "name": "Component.js"
+        },
+        {
+            "name": "controller/App-dbg.controller.js",
+            "isDebug": true
+        },
+        {
+            "name": "controller/App.controller.js"
+        },
+        {
+            "name": "controller/BaseController-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "controller/BaseController.js"
+        },
+        {
+            "name": "controller/Detail-dbg.controller.js",
+            "isDebug": true
+        },
+        {
+            "name": "controller/Detail.controller.js"
+        },
+        {
+            "name": "controller/ErrorHandler-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "controller/ErrorHandler.js"
+        },
+        {
+            "name": "controller/ListSelector-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "controller/ListSelector.js"
+        },
+        {
+            "name": "controller/Master-dbg.controller.js",
+            "isDebug": true
+        },
+        {
+            "name": "controller/Master.controller.js"
+        },
+        {
+            "name": "demo/flpSandbox.html"
+        },
+        {
+            "name": "demo/flpSandboxMockServer.html"
+        },
+        {
+            "name": "demo/integration/AllJourneys-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "demo/integration/AllJourneys.js"
+        },
+        {
+            "name": "demo/integration/BusyJourney-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "demo/integration/BusyJourney.js"
+        },
+        {
+            "name": "demo/integration/BusyJourneyPhone-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "demo/integration/BusyJourneyPhone.js"
+        },
+        {
+            "name": "demo/integration/FLPIntegrationJourney-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "demo/integration/FLPIntegrationJourney.js"
+        },
+        {
+            "name": "demo/integration/MasterJourney-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "demo/integration/MasterJourney.js"
+        },
+        {
+            "name": "demo/integration/NavigationJourney-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "demo/integration/NavigationJourney.js"
+        },
+        {
+            "name": "demo/integration/NavigationJourneyPhone-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "demo/integration/NavigationJourneyPhone.js"
+        },
+        {
+            "name": "demo/integration/NotFoundJourney-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "demo/integration/NotFoundJourney.js"
+        },
+        {
+            "name": "demo/integration/NotFoundJourneyPhone-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "demo/integration/NotFoundJourneyPhone.js"
+        },
+        {
+            "name": "demo/integration/PhoneJourneys-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "demo/integration/PhoneJourneys.js"
+        },
+        {
+            "name": "demo/integration/opaTests.qunit.html"
+        },
+        {
+            "name": "demo/integration/opaTestsPhone.qunit.html"
+        },
+        {
+            "name": "demo/integration/pages/App-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "demo/integration/pages/App.js"
+        },
+        {
+            "name": "demo/integration/pages/Browser-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "demo/integration/pages/Browser.js"
+        },
+        {
+            "name": "demo/integration/pages/Common-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "demo/integration/pages/Common.js"
+        },
+        {
+            "name": "demo/integration/pages/Detail-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "demo/integration/pages/Detail.js"
+        },
+        {
+            "name": "demo/integration/pages/Master-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "demo/integration/pages/Master.js"
+        },
+        {
+            "name": "demo/integration/pages/NotFound-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "demo/integration/pages/NotFound.js"
+        },
+        {
+            "name": "demo/testsuite.qunit.html"
+        },
+        {
+            "name": "demo/unit/allTests-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "demo/unit/allTests.js"
+        },
+        {
+            "name": "demo/unit/controller/App-dbg.controller.js",
+            "isDebug": true
+        },
+        {
+            "name": "demo/unit/controller/App.controller.js"
+        },
+        {
+            "name": "demo/unit/controller/ListSelector-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "demo/unit/controller/ListSelector.js"
+        },
+        {
+            "name": "demo/unit/model/GroupSortState-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "demo/unit/model/GroupSortState.js"
+        },
+        {
+            "name": "demo/unit/model/formatter-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "demo/unit/model/formatter.js"
+        },
+        {
+            "name": "demo/unit/model/grouper-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "demo/unit/model/grouper.js"
+        },
+        {
+            "name": "demo/unit/model/models-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "demo/unit/model/models.js"
+        },
+        {
+            "name": "demo/unit/unitTests.qunit.html"
+        },
+        {
+            "name": "di.code-validation.core_issues.json"
+        },
+        {
+            "name": "i18n/i18n.properties",
+            "raw": "i18n/i18n.properties"
+        },
+        {
+            "name": "i18n/i18n_de.properties",
+            "raw": "i18n/i18n.properties",
+            "locale": "_de"
+        },
+        {
+            "name": "i18n/i18n_es.properties",
+            "raw": "i18n/i18n.properties",
+            "locale": "_es"
+        },
+        {
+            "name": "i18n/i18n_fr.properties",
+            "raw": "i18n/i18n.properties",
+            "locale": "_fr"
+        },
+        {
+            "name": "i18n/i18n_nl.properties",
+            "raw": "i18n/i18n.properties",
+            "locale": "_nl"
+        },
+        {
+            "name": "i18n/i18n_pt.properties",
+            "raw": "i18n/i18n.properties",
+            "locale": "_pt"
+        },
+        {
+            "name": "localService/metadata.xml"
+        },
+        {
+            "name": "localService/mockdata/AffaireSet.json"
+        },
+        {
+            "name": "localService/mockdata/DetailSet.json"
+        },
+        {
+            "name": "localService/mockdata/ListeSet.json"
+        },
+        {
+            "name": "localService/mockdata/NotificationCollection.json"
+        },
+        {
+            "name": "localService/mockdata/SubscriptionCollection.json"
+        },
+        {
+            "name": "localService/mockserver-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "localService/mockserver.js"
+        },
+        {
+            "name": "manifest.json"
+        },
+        {
+            "name": "model/GroupSortState-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "model/GroupSortState.js"
+        },
+        {
+            "name": "model/formatter-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "model/formatter.js"
+        },
+        {
+            "name": "model/grouper-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "model/grouper.js"
+        },
+        {
+            "name": "model/models-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "model/models.js"
+        },
+        {
+            "name": "neo-app.json"
+        },
+        {
+            "name": "resources/pdf3.png"
+        },
+        {
+            "name": "style/pdf3.png"
+        },
+        {
+            "name": "style/style-dbg.css",
+            "isDebug": true
+        },
+        {
+            "name": "style/style.css"
+        },
+        {
+            "name": "test/flpSandbox.html"
+        },
+        {
+            "name": "test/flpSandboxMockServer.html"
+        },
+        {
+            "name": "test/integration/AllJourneys-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "test/integration/AllJourneys.js"
+        },
+        {
+            "name": "test/integration/BusyJourney-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "test/integration/BusyJourney.js"
+        },
+        {
+            "name": "test/integration/BusyJourneyPhone-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "test/integration/BusyJourneyPhone.js"
+        },
+        {
+            "name": "test/integration/FLPIntegrationJourney-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "test/integration/FLPIntegrationJourney.js"
+        },
+        {
+            "name": "test/integration/MasterJourney-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "test/integration/MasterJourney.js"
+        },
+        {
+            "name": "test/integration/NavigationJourney-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "test/integration/NavigationJourney.js"
+        },
+        {
+            "name": "test/integration/NavigationJourneyPhone-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "test/integration/NavigationJourneyPhone.js"
+        },
+        {
+            "name": "test/integration/NotFoundJourney-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "test/integration/NotFoundJourney.js"
+        },
+        {
+            "name": "test/integration/NotFoundJourneyPhone-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "test/integration/NotFoundJourneyPhone.js"
+        },
+        {
+            "name": "test/integration/PhoneJourneys-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "test/integration/PhoneJourneys.js"
+        },
+        {
+            "name": "test/integration/opaTests.qunit.html"
+        },
+        {
+            "name": "test/integration/opaTestsPhone.qunit.html"
+        },
+        {
+            "name": "test/integration/pages/App-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "test/integration/pages/App.js"
+        },
+        {
+            "name": "test/integration/pages/Browser-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "test/integration/pages/Browser.js"
+        },
+        {
+            "name": "test/integration/pages/Common-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "test/integration/pages/Common.js"
+        },
+        {
+            "name": "test/integration/pages/Detail-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "test/integration/pages/Detail.js"
+        },
+        {
+            "name": "test/integration/pages/Master-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "test/integration/pages/Master.js"
+        },
+        {
+            "name": "test/integration/pages/NotFound-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "test/integration/pages/NotFound.js"
+        },
+        {
+            "name": "test/testsuite.qunit.html"
+        },
+        {
+            "name": "test/unit/allTests-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "test/unit/allTests.js"
+        },
+        {
+            "name": "test/unit/controller/App-dbg.controller.js",
+            "isDebug": true
+        },
+        {
+            "name": "test/unit/controller/App.controller.js"
+        },
+        {
+            "name": "test/unit/controller/ListSelector-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "test/unit/controller/ListSelector.js"
+        },
+        {
+            "name": "test/unit/model/GroupSortState-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "test/unit/model/GroupSortState.js"
+        },
+        {
+            "name": "test/unit/model/formatter-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "test/unit/model/formatter.js"
+        },
+        {
+            "name": "test/unit/model/grouper-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "test/unit/model/grouper.js"
+        },
+        {
+            "name": "test/unit/model/models-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "test/unit/model/models.js"
+        },
+        {
+            "name": "test/unit/unitTests.qunit.html"
+        },
+        {
+            "name": "test.html"
+        },
+        {
+            "name": "tmp/Component-preload.js",
+            "merged": true
+        },
+        {
+            "name": "tmp/Component.js"
+        },
+        {
+            "name": "tmp/controller/App.controller.js"
+        },
+        {
+            "name": "tmp/controller/BaseController.js"
+        },
+        {
+            "name": "tmp/controller/Detail.controller.js"
+        },
+        {
+            "name": "tmp/controller/ErrorHandler.js"
+        },
+        {
+            "name": "tmp/controller/ListSelector.js"
+        },
+        {
+            "name": "tmp/controller/Master.controller.js"
+        },
+        {
+            "name": "tmp/demo/flpSandbox.html"
+        },
+        {
+            "name": "tmp/demo/flpSandboxMockServer.html"
+        },
+        {
+            "name": "tmp/demo/integration/AllJourneys.js"
+        },
+        {
+            "name": "tmp/demo/integration/BusyJourney.js"
+        },
+        {
+            "name": "tmp/demo/integration/BusyJourneyPhone.js"
+        },
+        {
+            "name": "tmp/demo/integration/FLPIntegrationJourney.js"
+        },
+        {
+            "name": "tmp/demo/integration/MasterJourney.js"
+        },
+        {
+            "name": "tmp/demo/integration/NavigationJourney.js"
+        },
+        {
+            "name": "tmp/demo/integration/NavigationJourneyPhone.js"
+        },
+        {
+            "name": "tmp/demo/integration/NotFoundJourney.js"
+        },
+        {
+            "name": "tmp/demo/integration/NotFoundJourneyPhone.js"
+        },
+        {
+            "name": "tmp/demo/integration/PhoneJourneys.js"
+        },
+        {
+            "name": "tmp/demo/integration/opaTests.qunit.html"
+        },
+        {
+            "name": "tmp/demo/integration/opaTestsPhone.qunit.html"
+        },
+        {
+            "name": "tmp/demo/integration/pages/App.js"
+        },
+        {
+            "name": "tmp/demo/integration/pages/Browser.js"
+        },
+        {
+            "name": "tmp/demo/integration/pages/Common.js"
+        },
+        {
+            "name": "tmp/demo/integration/pages/Detail.js"
+        },
+        {
+            "name": "tmp/demo/integration/pages/Master.js"
+        },
+        {
+            "name": "tmp/demo/integration/pages/NotFound.js"
+        },
+        {
+            "name": "tmp/demo/testsuite.qunit.html"
+        },
+        {
+            "name": "tmp/demo/unit/allTests.js"
+        },
+        {
+            "name": "tmp/demo/unit/controller/App.controller.js"
+        },
+        {
+            "name": "tmp/demo/unit/controller/ListSelector.js"
+        },
+        {
+            "name": "tmp/demo/unit/model/GroupSortState.js"
+        },
+        {
+            "name": "tmp/demo/unit/model/formatter.js"
+        },
+        {
+            "name": "tmp/demo/unit/model/grouper.js"
+        },
+        {
+            "name": "tmp/demo/unit/model/models.js"
+        },
+        {
+            "name": "tmp/demo/unit/unitTests.qunit.html"
+        },
+        {
+            "name": "tmp/i18n/i18n.properties",
+            "raw": "i18n/i18n.properties"
+        },
+        {
+            "name": "tmp/i18n/i18n_de.properties",
+            "raw": "i18n/i18n.properties",
+            "locale": "_de"
+        },
+        {
+            "name": "tmp/i18n/i18n_es.properties",
+            "raw": "i18n/i18n.properties",
+            "locale": "_es"
+        },
+        {
+            "name": "tmp/i18n/i18n_fr.properties",
+            "raw": "i18n/i18n.properties",
+            "locale": "_fr"
+        },
+        {
+            "name": "tmp/i18n/i18n_nl.properties",
+            "raw": "i18n/i18n.properties",
+            "locale": "_nl"
+        },
+        {
+            "name": "tmp/i18n/i18n_pt.properties",
+            "raw": "i18n/i18n.properties",
+            "locale": "_pt"
+        },
+        {
+            "name": "tmp/localService/metadata.xml"
+        },
+        {
+            "name": "tmp/localService/mockdata/AffaireSet.json"
+        },
+        {
+            "name": "tmp/localService/mockdata/DetailSet.json"
+        },
+        {
+            "name": "tmp/localService/mockdata/ListeSet.json"
+        },
+        {
+            "name": "tmp/localService/mockdata/NotificationCollection.json"
+        },
+        {
+            "name": "tmp/localService/mockdata/SubscriptionCollection.json"
+        },
+        {
+            "name": "tmp/localService/mockserver.js"
+        },
+        {
+            "name": "tmp/manifest.json"
+        },
+        {
+            "name": "tmp/model/GroupSortState.js"
+        },
+        {
+            "name": "tmp/model/formatter.js"
+        },
+        {
+            "name": "tmp/model/grouper.js"
+        },
+        {
+            "name": "tmp/model/models.js"
+        },
+        {
+            "name": "tmp/resources/pdf3.png"
+        },
+        {
+            "name": "tmp/style/pdf3.png"
+        },
+        {
+            "name": "tmp/style/style.css"
+        },
+        {
+            "name": "tmp/test/flpSandbox.html"
+        },
+        {
+            "name": "tmp/test/flpSandboxMockServer.html"
+        },
+        {
+            "name": "tmp/test/integration/AllJourneys.js"
+        },
+        {
+            "name": "tmp/test/integration/BusyJourney.js"
+        },
+        {
+            "name": "tmp/test/integration/BusyJourneyPhone.js"
+        },
+        {
+            "name": "tmp/test/integration/FLPIntegrationJourney.js"
+        },
+        {
+            "name": "tmp/test/integration/MasterJourney.js"
+        },
+        {
+            "name": "tmp/test/integration/NavigationJourney.js"
+        },
+        {
+            "name": "tmp/test/integration/NavigationJourneyPhone.js"
+        },
+        {
+            "name": "tmp/test/integration/NotFoundJourney.js"
+        },
+        {
+            "name": "tmp/test/integration/NotFoundJourneyPhone.js"
+        },
+        {
+            "name": "tmp/test/integration/PhoneJourneys.js"
+        },
+        {
+            "name": "tmp/test/integration/opaTests.qunit.html"
+        },
+        {
+            "name": "tmp/test/integration/opaTestsPhone.qunit.html"
+        },
+        {
+            "name": "tmp/test/integration/pages/App.js"
+        },
+        {
+            "name": "tmp/test/integration/pages/Browser.js"
+        },
+        {
+            "name": "tmp/test/integration/pages/Common.js"
+        },
+        {
+            "name": "tmp/test/integration/pages/Detail.js"
+        },
+        {
+            "name": "tmp/test/integration/pages/Master.js"
+        },
+        {
+            "name": "tmp/test/integration/pages/NotFound.js"
+        },
+        {
+            "name": "tmp/test/testsuite.qunit.html"
+        },
+        {
+            "name": "tmp/test/unit/allTests.js"
+        },
+        {
+            "name": "tmp/test/unit/controller/App.controller.js"
+        },
+        {
+            "name": "tmp/test/unit/controller/ListSelector.js"
+        },
+        {
+            "name": "tmp/test/unit/model/GroupSortState.js"
+        },
+        {
+            "name": "tmp/test/unit/model/formatter.js"
+        },
+        {
+            "name": "tmp/test/unit/model/grouper.js"
+        },
+        {
+            "name": "tmp/test/unit/model/models.js"
+        },
+        {
+            "name": "tmp/test/unit/unitTests.qunit.html"
+        },
+        {
+            "name": "tmp/test.html"
+        },
+        {
+            "name": "tmp/view/App.view.xml"
+        },
+        {
+            "name": "tmp/view/CommandeHelpFragment.fragment.xml"
+        },
+        {
+            "name": "tmp/view/Detail.view.xml"
+        },
+        {
+            "name": "tmp/view/DetailNoObjectsAvailable.view.xml"
+        },
+        {
+            "name": "tmp/view/DetailObjectNotFound.view.xml"
+        },
+        {
+            "name": "tmp/view/Master.view.xml"
+        },
+        {
+            "name": "tmp/view/NotFound.view.xml"
+        },
+        {
+            "name": "tmp/view/ProjectHelpFragment.fragment.xml"
+        },
+        {
+            "name": "tmp/view/ViewSettingsDialog.fragment.xml"
+        },
+        {
+            "name": "tmp-dbg/Component.js"
+        },
+        {
+            "name": "tmp-dbg/controller/App.controller.js"
+        },
+        {
+            "name": "tmp-dbg/controller/BaseController.js"
+        },
+        {
+            "name": "tmp-dbg/controller/Detail.controller.js"
+        },
+        {
+            "name": "tmp-dbg/controller/ErrorHandler.js"
+        },
+        {
+            "name": "tmp-dbg/controller/ListSelector.js"
+        },
+        {
+            "name": "tmp-dbg/controller/Master.controller.js"
+        },
+        {
+            "name": "tmp-dbg/demo/integration/AllJourneys.js"
+        },
+        {
+            "name": "tmp-dbg/demo/integration/BusyJourney.js"
+        },
+        {
+            "name": "tmp-dbg/demo/integration/BusyJourneyPhone.js"
+        },
+        {
+            "name": "tmp-dbg/demo/integration/FLPIntegrationJourney.js"
+        },
+        {
+            "name": "tmp-dbg/demo/integration/MasterJourney.js"
+        },
+        {
+            "name": "tmp-dbg/demo/integration/NavigationJourney.js"
+        },
+        {
+            "name": "tmp-dbg/demo/integration/NavigationJourneyPhone.js"
+        },
+        {
+            "name": "tmp-dbg/demo/integration/NotFoundJourney.js"
+        },
+        {
+            "name": "tmp-dbg/demo/integration/NotFoundJourneyPhone.js"
+        },
+        {
+            "name": "tmp-dbg/demo/integration/PhoneJourneys.js"
+        },
+        {
+            "name": "tmp-dbg/demo/integration/pages/App.js"
+        },
+        {
+            "name": "tmp-dbg/demo/integration/pages/Browser.js"
+        },
+        {
+            "name": "tmp-dbg/demo/integration/pages/Common.js"
+        },
+        {
+            "name": "tmp-dbg/demo/integration/pages/Detail.js"
+        },
+        {
+            "name": "tmp-dbg/demo/integration/pages/Master.js"
+        },
+        {
+            "name": "tmp-dbg/demo/integration/pages/NotFound.js"
+        },
+        {
+            "name": "tmp-dbg/demo/unit/allTests.js"
+        },
+        {
+            "name": "tmp-dbg/demo/unit/controller/App.controller.js"
+        },
+        {
+            "name": "tmp-dbg/demo/unit/controller/ListSelector.js"
+        },
+        {
+            "name": "tmp-dbg/demo/unit/model/GroupSortState.js"
+        },
+        {
+            "name": "tmp-dbg/demo/unit/model/formatter.js"
+        },
+        {
+            "name": "tmp-dbg/demo/unit/model/grouper.js"
+        },
+        {
+            "name": "tmp-dbg/demo/unit/model/models.js"
+        },
+        {
+            "name": "tmp-dbg/localService/mockserver.js"
+        },
+        {
+            "name": "tmp-dbg/model/GroupSortState.js"
+        },
+        {
+            "name": "tmp-dbg/model/formatter.js"
+        },
+        {
+            "name": "tmp-dbg/model/grouper.js"
+        },
+        {
+            "name": "tmp-dbg/model/models.js"
+        },
+        {
+            "name": "tmp-dbg/style/style.css"
+        },
+        {
+            "name": "tmp-dbg/test/integration/AllJourneys.js"
+        },
+        {
+            "name": "tmp-dbg/test/integration/BusyJourney.js"
+        },
+        {
+            "name": "tmp-dbg/test/integration/BusyJourneyPhone.js"
+        },
+        {
+            "name": "tmp-dbg/test/integration/FLPIntegrationJourney.js"
+        },
+        {
+            "name": "tmp-dbg/test/integration/MasterJourney.js"
+        },
+        {
+            "name": "tmp-dbg/test/integration/NavigationJourney.js"
+        },
+        {
+            "name": "tmp-dbg/test/integration/NavigationJourneyPhone.js"
+        },
+        {
+            "name": "tmp-dbg/test/integration/NotFoundJourney.js"
+        },
+        {
+            "name": "tmp-dbg/test/integration/NotFoundJourneyPhone.js"
+        },
+        {
+            "name": "tmp-dbg/test/integration/PhoneJourneys.js"
+        },
+        {
+            "name": "tmp-dbg/test/integration/pages/App.js"
+        },
+        {
+            "name": "tmp-dbg/test/integration/pages/Browser.js"
+        },
+        {
+            "name": "tmp-dbg/test/integration/pages/Common.js"
+        },
+        {
+            "name": "tmp-dbg/test/integration/pages/Detail.js"
+        },
+        {
+            "name": "tmp-dbg/test/integration/pages/Master.js"
+        },
+        {
+            "name": "tmp-dbg/test/integration/pages/NotFound.js"
+        },
+        {
+            "name": "tmp-dbg/test/unit/allTests.js"
+        },
+        {
+            "name": "tmp-dbg/test/unit/controller/App.controller.js"
+        },
+        {
+            "name": "tmp-dbg/test/unit/controller/ListSelector.js"
+        },
+        {
+            "name": "tmp-dbg/test/unit/model/GroupSortState.js"
+        },
+        {
+            "name": "tmp-dbg/test/unit/model/formatter.js"
+        },
+        {
+            "name": "tmp-dbg/test/unit/model/grouper.js"
+        },
+        {
+            "name": "tmp-dbg/test/unit/model/models.js"
+        },
+        {
+            "name": "view/App.view.xml"
+        },
+        {
+            "name": "view/CommandeHelpFragment.fragment.xml"
+        },
+        {
+            "name": "view/Detail.view.xml"
+        },
+        {
+            "name": "view/DetailNoObjectsAvailable.view.xml"
+        },
+        {
+            "name": "view/DetailObjectNotFound.view.xml"
+        },
+        {
+            "name": "view/Master.view.xml"
+        },
+        {
+            "name": "view/NotFound.view.xml"
+        },
+        {
+            "name": "view/ProjectHelpFragment.fragment.xml"
+        },
+        {
+            "name": "view/ViewSettingsDialog.fragment.xml"
+        }
+    ]
+}

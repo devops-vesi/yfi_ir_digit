@@ -1,0 +1,106 @@
+<edmx:Edmx
+    xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx"
+    xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata"
+    xmlns:sap="http://www.sap.com/Protocols/SAPData" Version="1.0">
+    <edmx:DataServices m:DataServiceVersion="2.0">
+        <Schema
+            xmlns="http://schemas.microsoft.com/ado/2008/09/edm" Namespace="YFI_DIGIT_SRV" xml:lang="fr" sap:schema-version="1">
+            <EntityType Name="Subscription" sap:semantics="subscriptions" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="ID"/>
+                </Key>
+                <Property Name="ID" Type="Edm.String" Nullable="false" MaxLength="32" sap:label="Sub. ID" sap:creatable="false" sap:updatable="false" sap:filterable="false"/>
+                <Property Name="user" Type="Edm.String" MaxLength="12" m:FC_TargetPath="SyndicationAuthorName" m:FC_KeepInContent="false" sap:label="Utilisateur" sap:creatable="false" sap:filterable="false"/>
+                <Property Name="updated" Type="Edm.DateTime" Precision="0" m:FC_TargetPath="SyndicationUpdated" m:FC_KeepInContent="false" sap:label="Horodatage" sap:creatable="false" sap:filterable="false"/>
+                <Property Name="title" Type="Edm.String" MaxLength="255" m:FC_TargetPath="SyndicationTitle" m:FC_KeepInContent="false" sap:label="Title" sap:filterable="false"/>
+                <Property Name="deliveryAddress" Type="Edm.String" sap:label="Delivery Address" sap:filterable="false"/>
+                <Property Name="persistNotifications" Type="Edm.Boolean" sap:label="Persist Notification" sap:filterable="false"/>
+                <Property Name="collection" Type="Edm.String" MaxLength="40" sap:label="Collection" sap:filterable="false"/>
+                <Property Name="filter" Type="Edm.String" sap:label="Filter" sap:filterable="false"/>
+                <Property Name="select" Type="Edm.String" MaxLength="255" sap:label="Select" sap:filterable="false"/>
+                <Property Name="changeType" Type="Edm.String" MaxLength="30" sap:label="Change Type"/>
+            </EntityType>
+            <EntityType Name="Notification" sap:semantics="notifications" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="ID"/>
+                </Key>
+                <Property Name="ID" Type="Edm.String" Nullable="false" MaxLength="32" sap:label="Notification ID"/>
+                <Property Name="collection" Type="Edm.String" MaxLength="40" sap:label="Collection"/>
+                <Property Name="title" Type="Edm.String" m:FC_TargetPath="SyndicationTitle" m:FC_KeepInContent="false" sap:label="Notif. Text"/>
+                <Property Name="updated" Type="Edm.DateTime" Precision="0" m:FC_TargetPath="SyndicationUpdated" m:FC_KeepInContent="false" sap:label="Horodatage"/>
+                <Property Name="changeType" Type="Edm.String" MaxLength="30" sap:label="Change Type"/>
+                <Property Name="entriesOfInterest" Type="Edm.Int32" sap:label="No. of Entries"/>
+                <Property Name="recipient" Type="Edm.String" MaxLength="112" sap:label="Recipient" sap:creatable="false" sap:updatable="false"/>
+            </EntityType>
+            <EntityType Name="Liste" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="Zcle"/>
+                </Key>
+                <Property Name="Zcle" Type="Edm.String" Nullable="false" MaxLength="10" sap:label="Clé" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="DestinataireInfo" Type="Edm.String" Nullable="false" MaxLength="12" sap:label="Util." sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="ErnamNom" Type="Edm.String" Nullable="false" MaxLength="65" sap:label="Nom du demandeur" sap:creatable="false" sap:updatable="false" sap:sortable="false"/>
+                <Property Name="Zzxblnr2" Type="Edm.String" MaxLength="50" sap:label="Référence intégrale facture ou avoir" sap:creatable="false" sap:updatable="false" sap:sortable="false"/>
+                <Property Name="ZdateInfo" Type="Edm.DateTime" Precision="7" sap:label="Date de la demande" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Name1" Type="Edm.String" MaxLength="35" sap:label="Nom du Fournisseur" sap:creatable="false" sap:updatable="false" sap:sortable="false"/>
+                <Property Name="Zzlifnr" Type="Edm.String" MaxLength="10" sap:label="Fournisseur" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Zzwrbtr" Type="Edm.Decimal" Precision="14" Scale="3" sap:label="Montant TTC" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Zzwaers" Type="Edm.String" MaxLength="5" sap:label="Devise" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" sap:semantics="currency-code"/>
+                <Property Name="Zzbldat" Type="Edm.DateTime" Precision="7" sap:label="Date pièce" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Zzdate" Type="Edm.DateTime" Precision="7" sap:label="Date échéance" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <NavigationProperty Name="Detail" Relationship="YFI_DIGIT_SRV.ListeTOdetail" FromRole="FromRole_ListeTOdetail" ToRole="ToRole_ListeTOdetail"/>
+            </EntityType>
+            <EntityType Name="Detail" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="Zcle"/>
+                </Key>
+                <Property Name="Zcle" Type="Edm.String" Nullable="false" MaxLength="10" sap:label="Clé" sap:creatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="ZzposidCh" Type="Edm.Boolean" sap:label="Choix Aff" sap:creatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="ZzposidInfo" Type="Edm.String" MaxLength="24" sap:label="Affaire" sap:creatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="ZzebelnCh" Type="Edm.Boolean" sap:label="Choix No cde" sap:creatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="ZzebelnInfo" Type="Edm.String" MaxLength="10" sap:label="No de commande" sap:creatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="ZzinvoicetypeCh" Type="Edm.Boolean" sap:label="Choix type de document" sap:creatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="ZzwrbtrInfo" Type="Edm.Decimal" Precision="14" Scale="3" sap:label="Montant TTC copié" sap:creatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Zzwaers" Type="Edm.String" MaxLength="5" sap:label="Devise" sap:creatable="false" sap:sortable="false" sap:filterable="false" sap:semantics="currency-code"/>
+                <Property Name="ZzvalidecartCh" Type="Edm.Boolean" sap:label="Choix Ecart facturation" sap:creatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="ZzvalidecartInfo" Type="Edm.String" MaxLength="60" sap:label="Question Ecart Cde / Fact" sap:creatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="ZzvalidecartRet" Type="Edm.String" MaxLength="30" sap:label="Réponse Ecart Cde / Fact" sap:creatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Zzinfo" Type="Edm.String" sap:label="Question" sap:creatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="ZzinfoRe" Type="Edm.String" sap:label="Réponse" sap:creatable="false" sap:sortable="false" sap:filterable="false"/>
+            </EntityType>
+            <EntityType Name="Affaire" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="ZzposidInfo"/>
+                </Key>
+                <Property Name="ZzposidInfo" Type="Edm.String" Nullable="false" MaxLength="24" sap:label="Affaire" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Postu" Type="Edm.String" MaxLength="40" sap:label="Désignation" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+            </EntityType>
+            <Association Name="ListeTOdetail" sap:content-version="1">
+                <End Type="YFI_DIGIT_SRV.Liste" Multiplicity="1" Role="FromRole_ListeTOdetail"/>
+                <End Type="YFI_DIGIT_SRV.Detail" Multiplicity="1" Role="ToRole_ListeTOdetail"/>
+                <ReferentialConstraint>
+                    <Principal Role="FromRole_ListeTOdetail">
+                        <PropertyRef Name="Zcle"/>
+                    </Principal>
+                    <Dependent Role="ToRole_ListeTOdetail">
+                        <PropertyRef Name="Zcle"/>
+                    </Dependent>
+                </ReferentialConstraint>
+            </Association>
+            <EntityContainer Name="YFI_DIGIT_SRV_Entities" m:IsDefaultEntityContainer="true" sap:supported-formats="atom json xlsx">
+                <EntitySet Name="SubscriptionCollection" EntityType="YFI_DIGIT_SRV.Subscription" sap:content-version="1"/>
+                <EntitySet Name="NotificationCollection" EntityType="YFI_DIGIT_SRV.Notification" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:addressable="false" sap:content-version="1"/>
+                <EntitySet Name="ListeSet" EntityType="YFI_DIGIT_SRV.Liste" sap:deletable="false" sap:searchable="true" sap:requires-filter="true" sap:content-version="1"/>
+                <EntitySet Name="DetailSet" EntityType="YFI_DIGIT_SRV.Detail" sap:deletable="false" sap:searchable="true" sap:requires-filter="true" sap:content-version="1"/>
+                <EntitySet Name="AffaireSet" EntityType="YFI_DIGIT_SRV.Affaire" sap:deletable="false" sap:searchable="true" sap:requires-filter="true" sap:content-version="1"/>
+                <AssociationSet Name="ListeTOdetailSet" Association="YFI_DIGIT_SRV.ListeTOdetail" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
+                    <End EntitySet="ListeSet" Role="FromRole_ListeTOdetail"/>
+                    <End EntitySet="DetailSet" Role="ToRole_ListeTOdetail"/>
+                </AssociationSet>
+            </EntityContainer>
+            <atom:link
+                xmlns:atom="http://www.w3.org/2005/Atom" rel="self" href="./sap/YFI_DIGIT_SRV/$metadata"/>
+                <atom:link
+                    xmlns:atom="http://www.w3.org/2005/Atom" rel="latest-version" href="./sap/YFI_DIGIT_SRV/$metadata"/>
+                </Schema>
+            </edmx:DataServices>
+        </edmx:Edmx>

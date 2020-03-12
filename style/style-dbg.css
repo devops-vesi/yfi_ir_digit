@@ -1,0 +1,25 @@
+/*#application-Title-display-component---detail--dp_devise::parent { */
+/*width: 8.5%;*/
+/*}*/
+/*div:has( #application-Title-display-component---detail--dp_devise ) {*/
+/*width: 8.5%;*/
+/*}*/
+
+input[type="text"]:disabled{background-color:#E0E0E0;}
+
+#txtBold1, #txtBold2, #txtBold3 {
+	
+    /*font-weight: bold;*/
+}
+
+.alert * {
+	/*background-color: red !important;*/
+	/*font-weight: bold !important;*/
+	color: red !important;
+}
+
+/*.normal * {*/
+	/*background-color: red !important;*/
+/*	    font-weight: normal !important;*/
+/*	color: auto !important;*/
+/*}*/

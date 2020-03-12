@@ -1,0 +1,151 @@
+[{
+	"ID": "ID 1",
+	"user": "user 1",
+	"updated": "/Date(1176392984000)/",
+	"title": "title 1",
+	"deliveryAddress": "deliveryAddress 1",
+	"persistNotifications": true,
+	"collection": "collection 1",
+	"filter": "filter 1",
+	"select": "select 1",
+	"changeType": "changeType 1",
+	"__metadata": {
+		"uri": "SubscriptionCollection('ID%201')",
+		"type": "YFI_DIGIT_SRV.Subscription"
+	}
+}, {
+	"ID": "ID 2",
+	"user": "user 2",
+	"updated": "/Date(1420649384000)/",
+	"title": "title 2",
+	"deliveryAddress": "deliveryAddress 2",
+	"persistNotifications": false,
+	"collection": "collection 2",
+	"filter": "filter 2",
+	"select": "select 2",
+	"changeType": "changeType 2",
+	"__metadata": {
+		"uri": "SubscriptionCollection('ID%202')",
+		"type": "YFI_DIGIT_SRV.Subscription"
+	}
+}, {
+	"ID": "ID 3",
+	"user": "user 3",
+	"updated": "/Date(1177775384000)/",
+	"title": "title 3",
+	"deliveryAddress": "deliveryAddress 3",
+	"persistNotifications": true,
+	"collection": "collection 3",
+	"filter": "filter 3",
+	"select": "select 3",
+	"changeType": "changeType 3",
+	"__metadata": {
+		"uri": "SubscriptionCollection('ID%203')",
+		"type": "YFI_DIGIT_SRV.Subscription"
+	}
+}, {
+	"ID": "ID 4",
+	"user": "user 4",
+	"updated": "/Date(951497384000)/",
+	"title": "title 4",
+	"deliveryAddress": "deliveryAddress 4",
+	"persistNotifications": true,
+	"collection": "collection 4",
+	"filter": "filter 4",
+	"select": "select 4",
+	"changeType": "changeType 4",
+	"__metadata": {
+		"uri": "SubscriptionCollection('ID%204')",
+		"type": "YFI_DIGIT_SRV.Subscription"
+	}
+}, {
+	"ID": "ID 5",
+	"user": "user 5",
+	"updated": "/Date(1428680984000)/",
+	"title": "title 5",
+	"deliveryAddress": "deliveryAddress 5",
+	"persistNotifications": true,
+	"collection": "collection 5",
+	"filter": "filter 5",
+	"select": "select 5",
+	"changeType": "changeType 5",
+	"__metadata": {
+		"uri": "SubscriptionCollection('ID%205')",
+		"type": "YFI_DIGIT_SRV.Subscription"
+	}
+}, {
+	"ID": "ID 6",
+	"user": "user 6",
+	"updated": "/Date(1379346584000)/",
+	"title": "title 6",
+	"deliveryAddress": "deliveryAddress 6",
+	"persistNotifications": true,
+	"collection": "collection 6",
+	"filter": "filter 6",
+	"select": "select 6",
+	"changeType": "changeType 6",
+	"__metadata": {
+		"uri": "SubscriptionCollection('ID%206')",
+		"type": "YFI_DIGIT_SRV.Subscription"
+	}
+}, {
+	"ID": "ID 7",
+	"user": "user 7",
+	"updated": "/Date(968860184000)/",
+	"title": "title 7",
+	"deliveryAddress": "deliveryAddress 7",
+	"persistNotifications": false,
+	"collection": "collection 7",
+	"filter": "filter 7",
+	"select": "select 7",
+	"changeType": "changeType 7",
+	"__metadata": {
+		"uri": "SubscriptionCollection('ID%207')",
+		"type": "YFI_DIGIT_SRV.Subscription"
+	}
+}, {
+	"ID": "ID 8",
+	"user": "user 8",
+	"updated": "/Date(1047919784000)/",
+	"title": "title 8",
+	"deliveryAddress": "deliveryAddress 8",
+	"persistNotifications": false,
+	"collection": "collection 8",
+	"filter": "filter 8",
+	"select": "select 8",
+	"changeType": "changeType 8",
+	"__metadata": {
+		"uri": "SubscriptionCollection('ID%208')",
+		"type": "YFI_DIGIT_SRV.Subscription"
+	}
+}, {
+	"ID": "ID 9",
+	"user": "user 9",
+	"updated": "/Date(1157212184000)/",
+	"title": "title 9",
+	"deliveryAddress": "deliveryAddress 9",
+	"persistNotifications": true,
+	"collection": "collection 9",
+	"filter": "filter 9",
+	"select": "select 9",
+	"changeType": "changeType 9",
+	"__metadata": {
+		"uri": "SubscriptionCollection('ID%209')",
+		"type": "YFI_DIGIT_SRV.Subscription"
+	}
+}, {
+	"ID": "ID 10",
+	"user": "user 10",
+	"updated": "/Date(1419439784000)/",
+	"title": "title 10",
+	"deliveryAddress": "deliveryAddress 10",
+	"persistNotifications": true,
+	"collection": "collection 10",
+	"filter": "filter 10",
+	"select": "select 10",
+	"changeType": "changeType 10",
+	"__metadata": {
+		"uri": "SubscriptionCollection('ID%2010')",
+		"type": "YFI_DIGIT_SRV.Subscription"
+	}
+}]

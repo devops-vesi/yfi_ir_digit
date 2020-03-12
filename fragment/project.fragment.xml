@@ -1,0 +1,151 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout" xmlns:form="sap.ui.layout.form">
+	<Dialog title="{i18n>projectMulti}">
+		<VBox class="sapUiSmallMargin">
+			<Panel>
+				<FlexBox alignItems="Start" justifyContent="Start">
+					<items>
+						<Input id="posid_input1" class="sapUiSmallMarginEnd" type="Text" width="auto" valueHelpOnly="false" maxLength="0" value="{ZzposidInfo}"
+							liveChange="posidChange" showSuggestion="true" showValueHelp="true" valueHelpRequest="handlePosidValueHelp" enabled="false"
+							suggestionItems="{/AffaireSet}" suggest="handleSuggestPN">
+							<suggestionItems>
+								<core:Item text="{ZzposidInfo}"/>
+							</suggestionItems>
+						</Input>
+						<Input id="mt_input1" class="sapUiSmallMarginBegin" enabled="{ZzposidCh}" value="{zzwrbtr2}"/>
+					</items>
+				</FlexBox>
+				<FlexBox alignItems="Start" justifyContent="Start">
+					<items>
+<!--						<Input id="posid_input2" type="Text" width="auto" valueHelpOnly="false" maxLength="0" value="{zzaff1}" liveChange="posidChange"
+							showSuggestion="true" showValueHelp="true" valueHelpRequest="handlePosidValueHelp" enabled="{ZzposidCh}" suggestionItems="{/AffaireSet}"
+							suggest="handleSuggestPN">
+							<suggestionItems>
+								<core:Item text="{zzaff1}"/>
+							</suggestionItems>
+						</Input>-->
+<!--						<Input id="posid_input2" type="Text" width="auto" valueHelpOnly="false" maxLength="0" value="{zzaff1}" liveChange="posidChange"
+							showSuggestion="true" showValueHelp="true" valueHelpRequest="handlePosidValueHelp" enabled="{ZzposidCh}" suggestionItems="{/AffaireSet}"
+							suggest="handleSuggestPN">
+							<suggestionItems>
+								<core:Item text="{ZzposidInfo}"/>
+							</suggestionItems>
+						</Input>-->	
+						<Input id="posid_input2" type="Text" width="auto" valueHelpOnly="false" maxLength="0" value="{zzaff1}" liveChange="posidChange"
+							showSuggestion="true" showValueHelp="true" valueHelpRequest="handlePosidValueHelp" enabled="{ZzposidCh}" suggestionItems="{/AffaireSet}"
+							suggest="handleSuggestPN">
+							<suggestionItems>
+								<core:Item text="{ZzposidInfo}"/>
+							</suggestionItems>
+						</Input>						
+						<Input id="mt_input2" class="sapUiTinyMarginBegin" enabled="{ZzposidCh}" value="{zzmt1}"/>
+					</items>
+				</FlexBox>
+				<FlexBox alignItems="Start" justifyContent="Start">
+					<items>
+						<!--						<Input id="posid_input3" type="Text" width="auto" valueHelpOnly="false" maxLength="0" value="{zzaff2}" liveChange="posidChange"
+							showSuggestion="true" showValueHelp="true" valueHelpRequest="handlePosidValueHelp" enabled="{ZzposidCh}" suggestionItems="{/AffaireSet}" suggest="handleSuggestPN">
+							<suggestionItems>
+								<core:Item text="{Postu} ({zzaff2})"/>
+							</suggestionItems>
+						</Input>-->
+						<Input id="posid_input3" type="Text" width="auto" valueHelpOnly="false" maxLength="0" value="{zzaff2}" liveChange="posidChange"
+							showSuggestion="true" showValueHelp="true" valueHelpRequest="handlePosidValueHelp" enabled="{ZzposidCh}" suggestionItems="{/AffaireSet}"
+							suggest="handleSuggestPN">
+							<suggestionItems>
+								<core:Item text="{ZzposidInfo}"/>
+							</suggestionItems>
+						</Input>
+						<Input id="mt_input3" class="sapUiTinyMarginBegin" enabled="{ZzposidCh}" value="{zzmt2}"/>
+					</items>
+				</FlexBox>
+				<FlexBox alignItems="Start" justifyContent="Start">
+					<items>
+						<Input id="posid_input4" type="Text" width="auto" valueHelpOnly="false" maxLength="0" value="{zzaff3}" liveChange="posidChange"
+							showSuggestion="true" showValueHelp="true" valueHelpRequest="handlePosidValueHelp" enabled="{ZzposidCh}" suggestionItems="{/AffaireSet}"
+							suggest="handleSuggestPN">
+							<suggestionItems>
+								<core:Item text="{ZzposidInfo}"/>
+							</suggestionItems>
+						</Input>
+						<Input id="mt_input4" class="sapUiTinyMarginBegin" enabled="{ZzposidCh}" value="{zzmt3}"/>
+					</items>
+				</FlexBox>
+				<FlexBox alignItems="Start" justifyContent="Start">
+					<items>
+						<Input id="posid_input5" type="Text" width="auto" valueHelpOnly="false" maxLength="0" value="{zzaff4}" liveChange="posidChange"
+							showSuggestion="true" showValueHelp="true" valueHelpRequest="handlePosidValueHelp" enabled="{ZzposidCh}" suggestionItems="{/AffaireSet}"
+							suggest="handleSuggestPN">
+							<suggestionItems>
+								<core:Item text="{ZzposidInfo}"/>
+							</suggestionItems>
+						</Input>
+						<Input id="mt_input5" class="sapUiTinyMarginBegin" enabled="{ZzposidCh}" value="{zzmt4}"/>
+					</items>
+				</FlexBox>
+				<FlexBox alignItems="Start" justifyContent="Center">
+					<items>
+						<Input id="posid_input6" type="Text" width="auto" valueHelpOnly="false" maxLength="0" value="{zzaff5}" liveChange="posidChange"
+							showSuggestion="true" showValueHelp="true" valueHelpRequest="handlePosidValueHelp" enabled="false" suggestionItems="{/AffaireSet}"
+							suggest="handleSuggestPN">
+							<suggestionItems>
+								<core:Item text="{ZzposidInfo}"/>
+							</suggestionItems>
+						</Input>
+						<Input id="mt_input6" class="sapUiTinyMarginBegin" enabled="false" value="{zzmt5}"/>
+					</items>
+				</FlexBox>
+				<FlexBox alignItems="Start" justifyContent="Center">
+					<items>
+						<Input id="posid_input7" type="Text" width="auto" valueHelpOnly="false" maxLength="0" value="{zzaff6}" liveChange="posidChange"
+							showSuggestion="true" showValueHelp="true" valueHelpRequest="handlePosidValueHelp" enabled="false" suggestionItems="{/AffaireSet}"
+							suggest="handleSuggestPN">
+							<suggestionItems>
+								<core:Item text="{ZzposidInfo}"/>
+							</suggestionItems>
+						</Input>
+						<Input id="mt_input7" class="sapUiTinyMarginBegin" enabled="false" value="{zzmt6}"/>
+					</items>
+				</FlexBox>
+				<FlexBox alignItems="Start" justifyContent="Center">
+					<items>
+						<Input id="posid_input8" type="Text" width="auto" valueHelpOnly="false" maxLength="0" value="{zzaff7}" liveChange="posidChange"
+							showSuggestion="true" showValueHelp="true" valueHelpRequest="handlePosidValueHelp" enabled="false" suggestionItems="{/AffaireSet}"
+							suggest="handleSuggestPN">
+							<suggestionItems>
+								<core:Item text="{ZzposidInfo}"/>
+							</suggestionItems>
+						</Input>
+						<Input id="mt_input8" class="sapUiTinyMarginBegin" enabled="false" value="{zzmt7}"/>
+					</items>
+				</FlexBox>
+				<FlexBox alignItems="Start" justifyContent="Center">
+					<items>
+						<Input id="posid_input9" type="Text" width="auto" valueHelpOnly="false" maxLength="0" value="{zzaff8}" liveChange="posidChange"
+							showSuggestion="true" showValueHelp="true" valueHelpRequest="handlePosidValueHelp" enabled="false" suggestionItems="{/AffaireSet}"
+							suggest="handleSuggestPN">
+							<suggestionItems>
+								<core:Item text="{ZzposidInfo}"/>
+							</suggestionItems>
+						</Input>
+						<Input id="mt_input9" class="sapUiTinyMarginBegin" enabled="false" value="{zzmt8}"/>
+					</items>
+				</FlexBox>
+				<FlexBox alignItems="Start" justifyContent="Center">
+					<items>
+						<Input id="posid_input10" type="Text" width="auto" valueHelpOnly="false" maxLength="0" value="{zzaff9}" liveChange="posidChange"
+							showSuggestion="true" showValueHelp="true" valueHelpRequest="handlePosidValueHelp" enabled="false" suggestionItems="{/AffaireSet}"
+							suggest="handleSuggestPN">
+							<suggestionItems>
+								<core:Item text="{ZzposidInfo}"/>
+							</suggestionItems>
+						</Input>
+						<Input id="mt_input10" class="sapUiTinyMarginBegin" enabled="false" value="{zzmt9}"/>
+					</items>
+				</FlexBox>
+			</Panel>
+		</VBox>
+		<buttons>
+			<Button text="{i18n>close}" press="closeDialogProject"/>
+		</buttons>
+	</Dialog>
+</core:FragmentDefinition>

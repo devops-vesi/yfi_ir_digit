@@ -1,0 +1,71 @@
+[{
+	"ZzposidInfo": "ZzposidInfo 1",
+	"Postu": "Postu 1",
+	"__metadata": {
+		"uri": "AffaireSet('ZzposidInfo%201')",
+		"type": "YFI_DIGIT_SRV.Affaire"
+	}
+}, {
+	"ZzposidInfo": "ZzposidInfo 2",
+	"Postu": "Postu 2",
+	"__metadata": {
+		"uri": "AffaireSet('ZzposidInfo%202')",
+		"type": "YFI_DIGIT_SRV.Affaire"
+	}
+}, {
+	"ZzposidInfo": "ZzposidInfo 3",
+	"Postu": "Postu 3",
+	"__metadata": {
+		"uri": "AffaireSet('ZzposidInfo%203')",
+		"type": "YFI_DIGIT_SRV.Affaire"
+	}
+}, {
+	"ZzposidInfo": "ZzposidInfo 4",
+	"Postu": "Postu 4",
+	"__metadata": {
+		"uri": "AffaireSet('ZzposidInfo%204')",
+		"type": "YFI_DIGIT_SRV.Affaire"
+	}
+}, {
+	"ZzposidInfo": "ZzposidInfo 5",
+	"Postu": "Postu 5",
+	"__metadata": {
+		"uri": "AffaireSet('ZzposidInfo%205')",
+		"type": "YFI_DIGIT_SRV.Affaire"
+	}
+}, {
+	"ZzposidInfo": "ZzposidInfo 6",
+	"Postu": "Postu 6",
+	"__metadata": {
+		"uri": "AffaireSet('ZzposidInfo%206')",
+		"type": "YFI_DIGIT_SRV.Affaire"
+	}
+}, {
+	"ZzposidInfo": "ZzposidInfo 7",
+	"Postu": "Postu 7",
+	"__metadata": {
+		"uri": "AffaireSet('ZzposidInfo%207')",
+		"type": "YFI_DIGIT_SRV.Affaire"
+	}
+}, {
+	"ZzposidInfo": "ZzposidInfo 8",
+	"Postu": "Postu 8",
+	"__metadata": {
+		"uri": "AffaireSet('ZzposidInfo%208')",
+		"type": "YFI_DIGIT_SRV.Affaire"
+	}
+}, {
+	"ZzposidInfo": "ZzposidInfo 9",
+	"Postu": "Postu 9",
+	"__metadata": {
+		"uri": "AffaireSet('ZzposidInfo%209')",
+		"type": "YFI_DIGIT_SRV.Affaire"
+	}
+}, {
+	"ZzposidInfo": "ZzposidInfo 10",
+	"Postu": "Postu 10",
+	"__metadata": {
+		"uri": "AffaireSet('ZzposidInfo%2010')",
+		"type": "YFI_DIGIT_SRV.Affaire"
+	}
+}]

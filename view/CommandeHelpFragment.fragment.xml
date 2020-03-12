@@ -1,0 +1,42 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+	<TableSelectDialog noDataText="{i18n>no_po}" title="{i18n>commandes}" search="handleSearchPO" confirm="handleClosePO"
+		cancel="handleClosePO" items="{ path : '/CommandeSet' }">
+		<ColumnListItem>
+			<cells>
+				<Text text="{Ebeln}"/>
+				<Text text="{Ebelp}"/>
+				<ObjectIdentifier title="{Aff}" text="{post1}" />
+				<Text text="{name1}"/>
+				<!--<Text text="{netwr}"/>-->
+			</cells>
+		</ColumnListItem>
+		
+		<columns>
+			<Column width="20%">
+				<header>
+					<Text id="txtBold1" text="{i18n>purch_doc}"/>
+				</header>
+			</Column>
+			<Column width="10%">
+				<header>
+					<Text text="{i18n>Item}"/>
+				</header>
+			</Column>
+			<Column width="40%">
+				<header>
+					<Text id="txtBold2" text="{i18n>Affaire}"/>
+				</header>
+			</Column>
+			<Column width="30%">
+				<header>
+					<Text id="txtBold3" text="{i18n>Vendor}"/>
+				</header>
+			</Column>
+			<!--<Column>-->
+			<!--	<header>-->
+			<!--		<Text text="{i18n>montant}"/>-->
+			<!--	</header>-->
+			<!--</Column>-->
+		</columns>
+	</TableSelectDialog>
+</core:FragmentDefinition>
